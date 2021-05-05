@@ -1,4 +1,6 @@
 const buildMenu = () => {
+  const content = document.getElementById('content')
+  content.style.display = 'static'
 
   const tab = document.getElementById("tab")
   

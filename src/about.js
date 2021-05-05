@@ -1,4 +1,7 @@
 const buildAbout = () => {
+  const content = document.getElementById('content')
+  content.style.display = 'static'
+
   const tab = document.getElementById("tab")
   
   let header = document.createElement('h2')
@@ -10,7 +13,7 @@ const buildAbout = () => {
   tab.appendChild(firstParagraph)
 
   let secondParagraph = document.createElement('p')
-  secondParagraph.innerHTML = "Here's a list of Cheeses: (All used in our Cheese Soup)"
+  secondParagraph.innerHTML = "Here's a list of Cheeses: (All used in our Grilled Cheese)"
   tab.appendChild(secondParagraph)
 
   let list = document.createElement('ul')
