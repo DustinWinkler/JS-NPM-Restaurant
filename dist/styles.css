@@ -16,8 +16,14 @@ h1 {
   font-size: 30px;
 }
 
-#content {
-  display: none;
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.shown {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 #tabs-container {

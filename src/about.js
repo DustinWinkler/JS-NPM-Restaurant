@@ -1,6 +1,6 @@
 const buildAbout = () => {
   const content = document.getElementById('content')
-  content.style.display = 'static'
+  content.style.display = 'block'
 
   const tab = document.getElementById("tab")
   
