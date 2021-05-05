@@ -16,6 +16,10 @@ h1 {
   font-size: 30px;
 }
 
+#content {
+  display: none;
+}
+
 #tabs-container {
   height: 800px;
   width: 600px;
